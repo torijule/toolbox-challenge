@@ -1,3 +1,18 @@
 /*Victoria Wellington
 Main CSS file to go with assignment four: toolbox challenge */
 
+.container{
+	max-width: window.width();
+	max-height: window.height;
+
+}
+
+#gameGrid img {
+	width: 20%
+}
+
+#gameGrid .row .col-xs-3
+	background: url('img/tile-back.png');
+	background-size: cover;
+	padding = 1em;
+}

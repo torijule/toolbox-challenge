@@ -1,8 +1,10 @@
-<doctype html>
+<!doctype html>
 <html>
-
+	<meta charset="utf-8">
 	<head>
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">  
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 
 
@@ -11,9 +13,25 @@
 	</head>
 
 	<body>
+		<div class="container-fluid">
+
+				<h1>Welcome to the game!</h1>
+				<h3>Rules:</h3>
+					<p id="rules">This game has eight sets of pictures that are scattered and hidden below.  Try to finc and match all eight 
+					sets!  If you find a match, the pictures will remain visible for the remainder of the game, however if you
+					select two things that do not match, the pictures will only remain visible for a quick second before hiding 
+					again!
+
+					
 
 
+				<div id="gameGrid"></div>
 
+
+				<button type ="reset" id="startGame">Start a New Game</button>
+		</div>
+
+		<script src="js/memoryGame.js" tyoe ="text/javascript"></script>
 	</body>
 
 </html>
