@@ -7,12 +7,20 @@ Main CSS file to go with assignment four: toolbox challenge */
 
 }
 
-#gameGrid img {
-	width: 20%
+#gameGrid{
+	height: 80%
+
 }
 
-#gameGrid .row .col-xs-3
-	background: url('img/tile-back.png');
-	background-size: cover;
-	padding = 1em;
+#gameGrid img {
+	width: 100%
 }
+
+#gameGrid col {
+	padding: 1em;
+}
+
+#stats {
+	padding: 2em;
+}
+

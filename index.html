@@ -22,16 +22,32 @@
 					select two things that do not match, the pictures will only remain visible for a quick second before hiding 
 					again!
 
-					
+				
 
 
 				<div id="gameGrid"></div>
+
+				<div id="stats">
+					<table style="width:100%">
+						<tr>
+							<th>Time Elapsed (s)</th>
+							<th>Remaining Pairs</th>
+							<th>Attempts</th>
+						</tr>
+						<tr>
+							<td id="time">0:00</td>
+							<td id="pairs">8</td>
+							<td id="attempts">0</td>
+						</tr>
+					</table>
+				</div>
+
 
 
 				<button type ="reset" id="startGame">Start a New Game</button>
 		</div>
 
-		<script src="js/memoryGame.js" tyoe ="text/javascript"></script>
+		<script src="js/memoryGame.js" type ="text/javascript"></script>
 	</body>
 
 </html>
