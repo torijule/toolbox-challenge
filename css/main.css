@@ -2,25 +2,25 @@
 Main CSS file to go with assignment four: toolbox challenge */
 
 .container{
-	max-width: window.width();
-	max-height: window.height;
+	max-width: window.innerWidth;
+	max-height: window.innerHeight;
 
 }
 
 #gameGrid{
-	height: 80%
+	height: 70%
 
 }
 
-#gameGrid img {
-	width: 100%
-}
-
-#gameGrid col {
-	padding: 1em;
+#gameGrid input {
+	width: 95%
 }
 
 #stats {
 	padding: 2em;
+}
+
+#winner {
+	display: none;
 }
 

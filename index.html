@@ -13,7 +13,7 @@
 	</head>
 
 	<body>
-		<div class="container-fluid">
+		<div class="container">
 
 				<h1>Welcome to the game!</h1>
 				<h3>Rules:</h3>
@@ -35,19 +35,21 @@
 							<th>Attempts</th>
 						</tr>
 						<tr>
-							<td id="time">0:00</td>
-							<td id="pairs">8</td>
-							<td id="attempts">0</td>
+							<td><span id="time">0:00</span></td>
+							<td><span id="pairs">8</span></td>
+							<td ><span id="attempts">0</span></td>
 						</tr>
 					</table>
 				</div>
 
-
+				<div id="winner">
+					<p>Congrats! You won!</p>
+				</div>
 
 				<button type ="reset" id="startGame">Start a New Game</button>
 		</div>
 
 		<script src="js/memoryGame.js" type ="text/javascript"></script>
-	</body>
+	</body> 
 
 </html>
