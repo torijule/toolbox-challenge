@@ -8,7 +8,7 @@ Main CSS file to go with assignment four: toolbox challenge */
 }
 
 #gameGrid{
-	height: 70%
+	height: 50%
 
 }
 
@@ -22,5 +22,23 @@ Main CSS file to go with assignment four: toolbox challenge */
 
 #winner {
 	display: none;
+	font-size: 24px;
+}
+
+
+body {
+	background-image: url('../img/starryBackground.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
 }
 

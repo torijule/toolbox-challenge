@@ -112,11 +112,7 @@ function draw(){
 			} else {
 				pic.setAttribute("src", "img/tile" + (tiles[row * 4 + col]) +".jpg");
 			}
-			if (w > h){
-				$(pic).css("width", (h / 10));
-			} else {
-				$(pic).css("width", (w / 4));
-			}
+			
 		}
 
 	}
@@ -136,7 +132,6 @@ function imageClicked(imageID){
 	if (!secondClick){
 		var image = document.getElementById(imageID);
 		lastImg = imageID  //note which image this is
-		//image.setAttribute("src", "img/tile" + tiles[imageID] + ".jpg");
 		$(image).data('showing', true);
 		draw();
 	} else {
